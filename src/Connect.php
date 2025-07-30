@@ -1,18 +1,18 @@
 <?php
 
-namespace CoffeeCode\DataLayer;
+namespace CaymanSistemas\DataLayer;
 
 use PDO;
 use PDOException;
 
 /**
  * Class Connect
- * @package CoffeeCode\DataLayer
+ * @package CaymanSistemas\DataLayer
  */
 class Connect
 {
     /** @var array */
-    private static array $instance;
+    private static array $instance = [];
 
     /** @var PDOException|null */
     private static ?PDOException $error = null;

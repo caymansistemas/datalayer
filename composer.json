@@ -1,5 +1,5 @@
 {
-  "name": "coffeecode/datalayer",
+  "name": "caymansistemas/datalayer",
   "description": "The data layer is a persistent abstraction component of your database that PDO",
   "keywords": [
     "CoffeeCode",
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CoffeeCode\\DataLayer\\": "src"
+      "CaymanSistemas\\DataLayer\\": "src"
     }
   }
 }

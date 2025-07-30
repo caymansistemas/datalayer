@@ -1,6 +1,6 @@
 <?php
 
-namespace CoffeeCode\DataLayer;
+namespace CaymanSistemas\DataLayer;
 
 use PDO;
 use PDOException;
@@ -8,7 +8,7 @@ use stdClass;
 
 /**
  * Class DataLayer
- * @package CoffeeCode\DataLayer
+ * @package CaymanSistemas\DataLayer
  */
 abstract class DataLayer
 {
